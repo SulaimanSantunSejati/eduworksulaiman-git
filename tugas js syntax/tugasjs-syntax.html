@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aplikasi Sederhana</title>
+</head>
+<body>
+    <h3>Penjumlahan Variabel</h3>
+    <p id="hasil_angka"></p>
+    <p id="hasil_kata"></p>
+    <p id="penjumlahan_campuran"></p>
+
+    <script>
+        // Variable pertama berupa angka 10
+        document.getElementById('hasil_angka').innerHTML = 10;
+
+        // Variable kedua berupa tulisan “saya belajar javascript”
+        document.getElementById('hasil_kata').innerHTML = "saya belajar javascript";
+
+        // Maka tambahkan angka dari variable ketiga
+
+        //let penjumlahanCampuran = 10 + "saya belajar javascript";
+        let hasil_angka = 10;
+        let penjumlahanCampuran = hasil_angka + 100;
+        
+        document.getElementById('penjumlahan_campuran').innerHTML = penjumlahanCampuran;
+    </script>
+</body>
+</html>
